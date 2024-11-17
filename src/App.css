@@ -43,6 +43,58 @@
   padding: 20px;
 }
 
+.file-panel {
+  margin-top: 20px;
+}
+
+.uploaded-file {
+  max-width: 100%;
+  height: auto;
+}
+
+.compressed-files {
+  margin-top: 20px;
+}
+
+.compressed-file {
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.comparison {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-file {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
 h1 {
   color: #333;
   font-family: Arial, sans-serif;
@@ -235,4 +287,55 @@ button:hover {
 .modal p {
   font-family: Arial, sans-serif;
   color: #777;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-panel {
+  margin-top: 20px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.compressed-images {
+  margin-top: 20px;
+}
+
+.compressed-image {
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.comparison {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-image {
+  max-width: 100%;
+  height: auto;
 }
